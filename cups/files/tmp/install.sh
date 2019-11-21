@@ -49,12 +49,12 @@ apt-get install --assume-yes --quiet \
         inotify-tools
 
 # Install CloudPrint
-pip install --upgrade pip
-pip install cloudprint
+#pip install --upgrade pip
+#pip install cloudprint
 
 # Add AirPrint config tool
-curl -skL https://raw.github.com/tjfontaine/airprint-generate/master/airprint-generate.py -o /opt/airprint-generate.py
-chmod +x /opt/airprint-generate.py
+#curl -skL https://raw.github.com/tjfontaine/airprint-generate/master/airprint-generate.py -o /opt/airprint-generate.py
+#chmod +x /opt/airprint-generate.py
 
 #########################################
 ##  FILES, SERVICES AND CONFIGURATION  ##

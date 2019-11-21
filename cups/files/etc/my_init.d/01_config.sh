@@ -1,6 +1,6 @@
 #!/bin/bash
 
-mkdir -p /config/cups /config/spool /config/logs /config/cache /config/cups/ssl /config/cups/ppd /config/cloudprint
+mkdir -p /config/cups /config/spool /config/logs /config/cache /config/cups/ssl /config/cups/ppd 
 
 # Copy missing config files
 cd /etc/cups
